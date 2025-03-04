@@ -1,0 +1,83 @@
+.input-container {
+    padding: 16px 24px;
+    background: rgba(25, 25, 45, 0.95);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(12px);
+    position: sticky;
+    bottom: 0;
+}
+
+.input-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    padding: 4px;
+    transition: all 0.2s ease;
+}
+
+.input-wrapper:focus-within {
+    border-color: #7f7fd5;
+    box-shadow: 0 0 0 1px #7f7fd5;
+}
+
+.action-buttons {
+    display: flex;
+    gap: 8px;
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+    padding-right: 12px;
+    margin-right: 12px;
+}
+
+.search-button,
+.reason-button {
+    padding: 6px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    background: transparent;
+    border: none;
+    color: rgba(255, 255, 255, 0.7);
+    transition: all 0.2s ease;
+}
+
+.search-button:hover,
+.reason-button:hover {
+    background: rgba(127, 127, 213, 0.1);
+    color: #86a8e7;
+}
+
+input {
+    flex: 1;
+    padding: 8px 12px;
+    border: none;
+    background: transparent;
+    color: white;
+    font-size: 16px;
+}
+
+input:focus {
+    outline: none;
+}
+
+.send-button {
+    background: #7f7fd5;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    margin-left: 8px;
+}
+
+.send-button:hover {
+    background: #86a8e7;
+}
+
+.disclaimer {
+    color: #ccc;
+}

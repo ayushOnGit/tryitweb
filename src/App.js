@@ -1,11 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import BixGPT from './openai';
+import TryGPT from './TryIt';
 
 function App() {
   return (
     <div>
-    <BixGPT/>
+    <TryGPT/>
     </div>
   );
 }
